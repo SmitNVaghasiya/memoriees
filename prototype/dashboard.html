@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Your albums — Memories</title>
+<link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav__inner">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.6"/><path d="M21 15l-5-5L5 21"/></svg>
+      Memories
+    </a>
+    <div class="nav__spacer"></div>
+    <nav class="nav__links">
+      <a href="gallery.html">Gallery demo</a>
+      <a href="share.html">Shared link</a>
+      <img class="avatar" src="https://picsum.photos/seed/mem-user/80/80" alt="Your profile" />
+    </nav>
+  </div>
+</header>
+
+<!-- Page header -->
+<section class="pagehead">
+  <div class="container">
+    <div class="pagehead__row reveal">
+      <div>
+        <p class="eyebrow">Welcome back, Smit</p>
+        <h1>Your albums</h1>
+      </div>
+      <a class="btn btn--primary" href="#">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+        New album
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Albums -->
+<main class="section--tight" style="padding-top: var(--s2);">
+  <div class="container">
+    <div class="albums">
+
+      <a class="album reveal" href="gallery.html">
+        <div class="album__cover">
+          <img src="https://picsum.photos/seed/alb-goa/600/450" alt="Goa 2025" loading="lazy" />
+          <span class="album__count">128 photos</span>
+        </div>
+        <div class="album__body">
+          <h3>Goa 2025</h3>
+          <p>Shared with 6 people · Updated 2 days ago</p>
+        </div>
+      </a>
+
+      <a class="album reveal" href="gallery.html">
+        <div class="album__cover">
+          <img src="https://picsum.photos/seed/alb-wed/600/450" alt="Riya &amp; Aarav's Wedding" loading="lazy" />
+          <span class="album__count">342 photos</span>
+        </div>
+        <div class="album__body">
+          <h3>Riya &amp; Aarav's Wedding</h3>
+          <p>Collaboration on · Updated last week</p>
+        </div>
+      </a>
+
+      <a class="album reveal" href="gallery.html">
+        <div class="album__cover">
+          <img src="https://picsum.photos/seed/alb-diw/600/450" alt="Diwali at Home" loading="lazy" />
+          <span class="album__count">57 photos</span>
+        </div>
+        <div class="album__body">
+          <h3>Diwali at Home</h3>
+          <p>Private · Updated last month</p>
+        </div>
+      </a>
+
+      <a class="album reveal" href="gallery.html">
+        <div class="album__cover">
+          <img src="https://picsum.photos/seed/alb-hill/600/450" alt="Hill Station Trip" loading="lazy" />
+          <span class="album__count">94 photos</span>
+        </div>
+        <div class="album__body">
+          <h3>Hill Station Trip</h3>
+          <p>Shared with 3 people · Updated in March</p>
+        </div>
+      </a>
+
+      <a class="album reveal" href="gallery.html">
+        <div class="album__cover">
+          <img src="https://picsum.photos/seed/alb-baby/600/450" alt="Baby's First Year" loading="lazy" />
+          <span class="album__count">211 photos</span>
+        </div>
+        <div class="album__body">
+          <h3>Baby's First Year</h3>
+          <p>Private · Updated yesterday</p>
+        </div>
+      </a>
+
+      <!-- New album tile -->
+      <a class="album album--new reveal" href="#">
+        <div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12h14"/></svg>
+          <div style="font-weight: 500;">Create new album</div>
+          <div class="tiny" style="margin-top: 4px;">Upload photos to get started</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container footer__inner">
+    <span class="tiny">Memories · static UI prototype</span>
+    <span class="tiny">Stored in your Google Drive</span>
+  </div>
+</footer>
+
+<script src="assets/app.js"></script>
+</body>
+</html>
